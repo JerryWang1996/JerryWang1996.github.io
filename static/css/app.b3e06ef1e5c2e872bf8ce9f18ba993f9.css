@@ -15,20 +15,6 @@ html,body{
 	cursor: pointer;
 }
 
-
-.main_wrapper[data-v-a9c70ddc] {
-  content: ' ';
-  position: fixed;
-  z-index: -1;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: url(/static/img/banner.ca2d318.jpg) center 0 no-repeat;
-  background-size: cover;
-}
-
-
 body[data-v-a9c70ddc]{
   width: 100%;
   margin: 0;
