@@ -16,7 +16,7 @@ html,body{
 }
 
 
-.main_wrapper[data-v-a9c70ddc]:before {
+.main_wrapper[data-v-a9c70ddc] {
   content: ' ';
   position: fixed;
   z-index: -1;
