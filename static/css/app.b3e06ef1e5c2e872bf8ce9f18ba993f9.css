@@ -260,7 +260,7 @@ ul[data-v-a9c70ddc]{
 .main_wrapper[data-v-a9c70ddc]{
   width: 100%;
   background: #444 url(/static/img/banner.ca2d318.jpg);
-  background-attachment:scroll;
+  background-attachment:fixed;
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center top;
