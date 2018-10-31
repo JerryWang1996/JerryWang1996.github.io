@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="zp" />
+		<link rel="icon" href="\static\img\icon1.png" type="image/x-icon"/>
+        <title>rotateFat</title>
+    </head>
+    <body>
+	<div style="margin: 30px 35%;">
+        <img src="\static\img\pangzi.jpg" id="img"/> 
+	</div>
+		<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript">
+		var deg = 0;
+		$(function () {
+			setInterval(runThis, 1)
+		});
+		function runThis(){
+                deg +=1;
+                document.getElementById("img").style.transform = "rotate(" + deg + "deg)";
+		}
+        </script>
+    </body>
+</html>
